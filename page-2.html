@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/js-test-layout/assets/styles-DoQerLMi.css">
+    <script type="module" crossorigin src="/js-test-layout/assets/vendor-BiMJRTlQ.js"></script>
+    <script type="module" crossorigin src="/js-test-layout/assets/index-C2ZH3JqG.js"></script>
+    <link rel="stylesheet" crossorigin href="/js-test-layout/assets/index-BjHXffCI.css">
+    <link rel="stylesheet" crossorigin href="/js-test-layout/assets/vendor-BZ_WhpHG.css">
   </head>
   <body>
     <header class="header">
@@ -33,9 +36,33 @@
           >
         </li>
       </ul>
+      <div class="wrap-burger">
+        <button class="btn-burger open-modal">
+          <svg class="svg-burger">
+            <use href="../img/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
     </nav>
   </div>
 </header>
+
+<div class="mobile-modal-menu is-hidden">
+  <nav>
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item">
+        <a class="mobile-modal-link active" href="./page-2.html"
+          >Neem Contact Op
+        </a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-modal-link {=$highlight-curr}" href="./page-3.html"
+          >Privacybeleid</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
 
 
     <main>
@@ -50,17 +77,27 @@
 
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
+    <nav>
+      <a class="footer-logo" href="./index.html" aria-label="Site logo">
+        <img
+          src="../img/logo.jpg"
+          alt="../img/logo.jpg"
+          width="32"
+          height="32"
+          class="footer-img"
+        />
+        <p class="text-footer-logo">Zoetwinkel</p>
       </a>
-    </p>
+      <ul class="list-footer">
+        <li>
+          <a class="link-footer" href="./page-3.html">Privacybeleid</a>
+        </li>
+        <li>
+          <a class="link-footer" href="./page-2.html">Neem Contact Op </a>
+        </li>
+      </ul>
+      <p class="text-footer">© zoetwinkel.com</p>
+    </nav>
   </div>
 </footer>
 

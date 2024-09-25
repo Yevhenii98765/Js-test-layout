@@ -5,8 +5,10 @@
     <link rel="icon" type="image/svg+xml" href="/js-test-layout/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zoetwinkel</title>
-    <script type="module" crossorigin src="/js-test-layout/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/js-test-layout/assets/styles-DoQerLMi.css">
+    <script type="module" crossorigin src="/js-test-layout/assets/vendor-BiMJRTlQ.js"></script>
+    <script type="module" crossorigin src="/js-test-layout/assets/index-C2ZH3JqG.js"></script>
+    <link rel="stylesheet" crossorigin href="/js-test-layout/assets/index-BjHXffCI.css">
+    <link rel="stylesheet" crossorigin href="/js-test-layout/assets/vendor-BZ_WhpHG.css">
   </head>
   <body>
     <header class="header">
@@ -34,9 +36,33 @@
           >
         </li>
       </ul>
+      <div class="wrap-burger">
+        <button class="btn-burger open-modal">
+          <svg class="svg-burger">
+            <use href="../img/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
     </nav>
   </div>
 </header>
+
+<div class="mobile-modal-menu is-hidden">
+  <nav>
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item">
+        <a class="mobile-modal-link {=$highlight-act}" href="./page-2.html"
+          >Neem Contact Op
+        </a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-modal-link {=$highlight-curr}" href="./page-3.html"
+          >Privacybeleid</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
 
 
     <main>
@@ -114,8 +140,82 @@
   <section class="section-js">
     <div class="iner">
       <h1 class="title-js">Meer Klantbeoordelingen</h1>
-      <div>
-        <img src="../img/Screenshot_12.png" alt="" />
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="new-comment">
+              <div>
+                <img class="img-comment" src="../img/swaip.jpg" alt="swaip" />
+              </div>
+              <div>
+                <div>
+                  <p class="text-comment">Lotte Jansen</p>
+                </div>
+                <h2 class="title-comment">Altijd vers en lekker</h2>
+                <p class="text-second-comment">
+                  Ik kom hier vaak voor mijn zoete traktaties. De producten zijn
+                  altijd vers en van hoge kwaliteit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="new-comment">
+              <div>
+                <img class="img-comment" src="../img/swaip.jpg" alt="swaip" />
+              </div>
+              <div>
+                <div>
+                  <p class="text-comment">Вторий слайд</p>
+                </div>
+                <h2 class="title-comment">Altijd vers en lekker</h2>
+                <p class="text-second-comment">
+                  Ik kom hier vaak voor mijn zoete traktaties. De producten zijn
+                  altijd vers en van hoge kwaliteit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="new-comment">
+              <div>
+                <img class="img-comment" src="../img/swaip.jpg" alt="swaip" />
+              </div>
+              <div>
+                <div>
+                  <p class="text-comment">Третій слайд</p>
+                </div>
+                <h2 class="title-comment">Altijd vers en lekker</h2>
+                <p class="text-second-comment">
+                  Ik kom hier vaak voor mijn zoete traktaties. De producten zijn
+                  altijd vers en van hoge kwaliteit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="btn-wrap">
+          <div class="btn-prev">
+            <svg class="btn-sw-l">
+              <use href="../img/icons.svg#icon-chevron-circle-left"></use>
+            </svg>
+          </div>
+          <div class="btn-next">
+            <svg class="btn-sw-r">
+              <use href="../img/icons.svg#icon-chevron-circle-right"></use>
+            </svg>
+          </div>
+        </div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
       </div>
     </div>
   </section>
@@ -215,94 +315,31 @@
   </section>
 </main>
 
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/js-test-layout/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
-</section>
-
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
-  </div>
-</article>
-
     </main>
 
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
+    <nav>
+      <a class="footer-logo" href="./index.html" aria-label="Site logo">
+        <img
+          src="../img/logo.jpg"
+          alt="../img/logo.jpg"
+          width="32"
+          height="32"
+          class="footer-img"
+        />
+        <p class="text-footer-logo">Zoetwinkel</p>
       </a>
-    </p>
+      <ul class="list-footer">
+        <li>
+          <a class="link-footer" href="./page-3.html">Privacybeleid</a>
+        </li>
+        <li>
+          <a class="link-footer" href="./page-2.html">Neem Contact Op </a>
+        </li>
+      </ul>
+      <p class="text-footer">© zoetwinkel.com</p>
+    </nav>
   </div>
 </footer>
 
