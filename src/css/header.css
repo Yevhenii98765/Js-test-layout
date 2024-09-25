@@ -1,5 +1,6 @@
 .header {
   padding: 16px 0;
+  border-bottom: 1px solid black;
 }
 
 .nav {
@@ -20,6 +21,30 @@
   justify-content: flex-end;
   gap: 40px;
 }
+
+@media only screen and (max-width: 556px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 556px) {
+  .wrap-burger {
+    display: none;
+  }
+}
+
+.btn-burger {
+  background: none;
+  border: none;
+}
+
+.svg-burger {
+  width: 25px;
+  height: 25px;
+  fill: #02bb02;
+}
+
 .nav-link {
   position: relative;
   display: block;
@@ -48,4 +73,57 @@
 }
 .nav-link.active::after {
   background: #747bff;
+}
+
+/* burger*/
+
+.mobile-modal-menu {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Полноэкранное меню */
+  background-color: #fff;
+  z-index: 1000; /* Меню поверх всех элементов */
+  overflow-y: auto; /* Включить прокрутку, если меню большое */
+  border-bottom: 1px solid black;
+}
+
+.mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 554px;
+}
+
+.mobile-modal-link {
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.mobile-menu-btn {
+  background: none;
+  border: none;
+}
+
+.mobile-svg {
+  width: 25px;
+  height: 25px;
+  fill: #02bb02;
+}
+
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+}
+
+.icon-open::before {
+  content: '☰'; /* Иконка меню (три полоски) */
+}
+
+.icon-close::before {
+  content: '✖'; /* Иконка закрытия (крестик) */
 }
