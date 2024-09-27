@@ -41,10 +41,16 @@ function onCloseLink() {
 // Функция для смены иконки
 function toggleMenuIcon() {
   if (mobileModal.classList.contains('is-hidden')) {
-    svgIcon.setAttribute('href', 'img/icons.svg#icon-menu'); // Иконка меню  /js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu // ../img/icons.svg#icon-menu
+    svgIcon.setAttribute(
+      'href',
+      'https://yevhenii98765.github.io/js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu'
+    ); // Иконка меню  /js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu // ../img/icons.svg#icon-menu
     //https://yevhenii98765.github.io/js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu
   } else {
-    svgIcon.setAttribute('href', 'img/icons.svg#icon-cross'); // Иконка закрытия /js-test-layout/assets/icons-BjYJDn2L.svg#icon-cross  // ../img/icons.svg#icon-cross
+    svgIcon.setAttribute(
+      'href',
+      'https://yevhenii98765.github.io/js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu'
+    ); // Иконка закрытия /js-test-layout/assets/icons-BjYJDn2L.svg#icon-cross  // ../img/icons.svg#icon-cross
     //https://yevhenii98765.github.io/js-test-layout/assets/icons-BjYJDn2L.svg#icon-cross
   }
 }
