@@ -43,7 +43,7 @@ function toggleMenuIcon() {
   if (mobileModal.classList.contains('is-hidden')) {
     svgIcon.setAttribute(
       'href',
-      'js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu '
+      'js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu'
     ); // Иконка меню  /js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu // ../img/icons.svg#icon-menu
   } else {
     svgIcon.setAttribute(
