@@ -1,0 +1,30 @@
+.neem-contact-op {
+  margin: 96px 0 48px 0;
+}
+
+.iner {
+  min-width: 280px;
+  max-width: 540px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .iner {
+    min-width: 768px;
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .iner {
+    min-width: 1200px;
+    max-width: 1320px;
+  }
+}
+
+.svg-icon {
+  width: 60px;
+  height: 60px;
+  fill: #02bb02;
+}
