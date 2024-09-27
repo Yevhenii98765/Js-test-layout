@@ -43,12 +43,12 @@ function toggleMenuIcon() {
   if (mobileModal.classList.contains('is-hidden')) {
     svgIcon.setAttribute(
       'href',
-      '/js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu'
-    ); // Иконка меню (три полоски)<use href="/js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu"></use>
+      'js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu '
+    ); // Иконка меню  /js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu // ../img/icons.svg#icon-menu
   } else {
     svgIcon.setAttribute(
       'href',
       '/js-test-layout/assets/icons-BjYJDn2L.svg#icon-cross'
-    ); // Иконка закрытия (крестик)
+    ); // Иконка закрытия /js-test-layout/assets/icons-BjYJDn2L.svg#icon-cross  // ../img/icons.svg#icon-cross
   }
 }

@@ -141,6 +141,14 @@
   flex-direction: column;
 }
 
+@media only screen and (min-width: 500px) {
+  .list-producten {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 11px;
+    margin-bottom: 24px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .list-producten {
     display: grid;
