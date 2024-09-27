@@ -49,7 +49,7 @@ function toggleMenuIcon() {
   } else {
     svgIcon.setAttribute(
       'href',
-      'https://yevhenii98765.github.io/js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu'
+      'https://yevhenii98765.github.io/js-test-layout/assets/icons-BjYJDn2L.svg#icon-cross'
     ); // Иконка закрытия /js-test-layout/assets/icons-BjYJDn2L.svg#icon-cross  // ../img/icons.svg#icon-cross
     //https://yevhenii98765.github.io/js-test-layout/assets/icons-BjYJDn2L.svg#icon-cross
   }
