@@ -41,8 +41,14 @@ function onCloseLink() {
 // Функция для смены иконки
 function toggleMenuIcon() {
   if (mobileModal.classList.contains('is-hidden')) {
-    svgIcon.setAttribute('href', '/img/icons.svg#icon-menu'); // Иконка меню (три полоски)
+    svgIcon.setAttribute(
+      'href',
+      '/js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu'
+    ); // Иконка меню (три полоски)<use href="/js-test-layout/assets/icons-BjYJDn2L.svg#icon-menu"></use>
   } else {
-    svgIcon.setAttribute('href', '/img/icons.svg#icon-cross'); // Иконка закрытия (крестик)
+    svgIcon.setAttribute(
+      'href',
+      '/js-test-layout/assets/icons-BjYJDn2L.svg#icon-cross'
+    ); // Иконка закрытия (крестик)
   }
 }
