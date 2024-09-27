@@ -22,3 +22,29 @@
 .privacybeleid {
   margin: 96px 0 48px 0;
 }
+
+.link-up {
+}
+
+.svg-up {
+  position: fixed;
+  right: 22px;
+  bottom: 14px;
+  width: 30px;
+  height: 30px;
+  fill: #02bb02;
+  opacity: 0.2;
+}
+
+@media only screen and (min-width: 1200px) {
+  .svg-up {
+    right: 240px;
+  }
+}
+
+.svg-up:hover,
+.svg-up:active,
+.svg-up:focus use {
+  opacity: 1;
+  transform: scale(1.4);
+}
