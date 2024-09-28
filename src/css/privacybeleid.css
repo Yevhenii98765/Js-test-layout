@@ -48,3 +48,63 @@
   opacity: 1;
   transform: scale(1.4);
 }
+
+.title-privacybeleid {
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.data-text {
+  font-size: 15px;
+  box-sizing: border-box;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.second-style-text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.second-style-title {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.third-style-title {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.list-style-type {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.span-list-style {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-list-style {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.fourth-style-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.span-margin {
+  display: block;
+  margin-bottom: 16px;
+}
